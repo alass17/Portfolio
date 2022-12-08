@@ -308,6 +308,8 @@ img {
 
 .home__blob {
     width: 200px;
+    /* background: url(../assets/IMG-20200523-WA0022-&.jpg);
+    background-size: cover; */
     fill: var(--first-color);
 }
 
@@ -1286,22 +1288,24 @@ img {
 }
 
 
-#about{
+/* #about{
     font-family: 'Poppins',sans-serif;
 }
 .about-me img{
     border-radius: 50%;
-    overflow: hidden;
+    width: 253px;
+    height: 244px;
     border: 5px solid white;
     position:relative;
+    margin-top: 70px;
 }
-.about-me .socials-icons{
+.about-me .social-icons{
      position:absolute;
      bottom: -15px;
      left: 0;
      right: 0;
 }
-.about-me .socials-icons a{
+.about-me .social-icons a{
    width: 45px;
    height: 45px;
    line-height: 41px;
@@ -1314,34 +1318,35 @@ img {
    margin: 0 5px;
    transition:  ease all 0.35s;
    transform: scale(1);
-   margin-top: -150px;
+   margin-top: -370px;
 
 }
-.socials-icons a i{
+.social-icons a i{
     line-height: inherit; 
 }
-.socials-icons a:nth-child(1){
-    top: -8px;
-}
-.socials-icons a:nth-child(2){
-    top: -8px;
-}
-.socials-icons a:nth-child(3){
-    top: -8px;
-}
-.socials-icons a:nth-child(4){
-    top: -8px;
-}
-.socials-icons a:nth-child(5){
+.social-icons a:nth-child(1){
     top: -25px;
 }
-.socials-icons a:hover{
+.social-icons a:nth-child(2){
+    top: -8px;
+}
+.social-icons a:nth-child(3){
+    top: -22px;
+}
+.social-icons a:nth-child(4){
+    top: -50px;
+}
+.social-icons a:nth-child(5){
+    top: -50px;
+}
+
+.social-icons a:hover{
     transform: scale(1.1);
     background: #3131a0;
     color: white;
 
 }
-.info{
+.infos{
     text-align: center;
     padding-top: 40px;
     color: black;
@@ -1349,31 +1354,48 @@ img {
     margin-left: 7%;
 
 }
-.info h3{
+.infos h3{
     font-weight: 400;
     font-size: 30px;
 }
- .info p{
+ .infos p{
     margin: 0;
     font-size: 16px;
-}
-.info-list{
+    /* color: black; */
+/* }
+.infos-list{
     padding-top: 15px;
     color:white;
 
 }
-.info-list ul {
+.infos-list ul {
     margin: 0;
     padding: 0;
     list-style: none;
 
 }
-.info-list li {
+.infos-list li {
     padding: 4px 0;
 }
-.info-list label{
+.infos-list label{
     color: white;
     margin: 0;
     font-weight: 400;
     padding-right: 10px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+}
+.infos p {
+    margin: 0;
+    font-size: 16px;
+    /* color: black; */
+    /* margin-right: 104px;
+    text-align: center;
+} */
+#mask0{
+    background: url(../assets/IMG-20200523-WA0022-&.jpg);
+
 }
