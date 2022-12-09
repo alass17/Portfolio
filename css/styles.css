@@ -798,6 +798,11 @@ img {
     text-align: center;
 }
 
+.project__data {
+    padding-top: .8rem;
+    padding-bottom: 12px;
+}
+
 .project__bg {
     background-color: var(--first-color-second);
     padding-top: 3rem;
@@ -955,7 +960,7 @@ img {
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: hsl(250deg 11% 81%);
     margin-top: var(--mb-3)
 }
 
