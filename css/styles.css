@@ -917,6 +917,7 @@ img {
 /*==================== FOOTER ====================*/
 .footer {
     padding-top: 2rem;
+   
 }
 
 .footer__container {
@@ -926,6 +927,7 @@ img {
 .footer__bg {
     background-color: var(--first-color-second);
     padding: 2rem 0 3rem;
+        margin-bottom: -45px;
 }
 
 .footer__title {
@@ -970,6 +972,7 @@ img {
 .footer__social {
     color: #FFF;
 }
+
 
 /*========== SCROLL UP ==========*/
 .scrollup {
