@@ -586,6 +586,7 @@ img {
 .qualification__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    width: 100%;
 }
 
 .qualification__subtitle {
@@ -744,6 +745,13 @@ img {
 }
 
 .portfolio__img {
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+    height: 200px;
+}
+
+.orange{
     width: 265px;
     border-radius: .5rem;
     justify-self: center;
